@@ -26,6 +26,6 @@ ncp('src', destinationDir, function (err) {
     const regex = /^Import-Module powershell-utils$/m
 
     if (!regex.test(content)) {
-        fs.appendFileSync(profilePath, 'Import-Module powershell-utils')
+        fs.appendFileSync(profilePath, 'Import-Module powershell-utils\n')
     }
 })
