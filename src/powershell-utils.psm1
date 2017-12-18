@@ -29,7 +29,6 @@ Function Get-AdamServices {
                 "ADAM 6.0.0.0 Maintenance Service",
                 "ADAM 6.0.0.0 Synchronization Service",
                 "AdamContentModeling60",
-                "AdamRestService.60",
                 "elasticsearch-service-x64",
                 "ADAM 6.0.0.0 Service"
             )
